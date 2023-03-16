@@ -1,0 +1,111 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  color: rgb(88, 84, 84);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(243, 6, 45);
+  color: white;
+}
+
+.centered h3{
+    font-size: 30px;
+}
+
+.centered p{
+    font-size: 20px;
+}
+
+.signin .fa-brands {
+    color: rgb(88, 84, 84);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* making the right button transparent */
+.right-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    outline: none;
+}
+
+/* If you want to center the content */
+.centered {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signin p {
+    font-size: 30px;
+}
+
+.form input, .form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+.form input {
+    padding-left: 20px;
+}
+
+.form input {
+    background-color: rgb(238, 227, 227);
+    margin-bottom: 20px;
+}
+
+.form button {
+    background-color: rgb(243, 6, 45);
+    color: white;
+    width: 105%;
+}
+
+.form p {
+    font-size: 15px;
+    text-align: left;
+    color: black;
+}
+
+.password {
+   color: rgb(243, 6, 45); 
+   display: flex;
+   justify-content: space-between;
+}
+
+#forgot {
+    color: rgb(88, 84, 84);
+}
+
+.passw{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
